@@ -1,12 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib"
+    "pages/database/database"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -14,5 +9,24 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "云开发 demo",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a2a2a2",
+    "backgroundColor": "#fff",
+    "selectedColor": "#ff504a",
+    "list": [
+        {
+            "pagePath": "pages/index/index",
+            "iconPath": "pages/assets/images/indexTab/dayLesson.png",
+            "selectedIconPath": "pages/assets/images/indexTab/dayLesson-active.png",
+            "text": "文件管理"
+        },
+        {
+            "pagePath": "pages/database/database",
+            "iconPath": "pages/assets/images/indexTab/speech.png",
+            "selectedIconPath": "pages/assets/images/indexTab/speech-active.png",
+            "text": "数据库操作"
+        }
+    ]
   }
 }

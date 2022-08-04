@@ -1,0 +1,8 @@
+<view class="container">
+  <button bindtap="onAdd">新增记录</button>
+  <button bindtap="onQuery">查询记录</button>
+  <button bindtap="onUpdate">更新记录</button>
+  <button bindtap="onRemove">删除记录</button>
+  <button bindtap="onUpdateFromServer">更新记录（云）</button>
+
+</view>
